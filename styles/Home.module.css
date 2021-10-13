@@ -156,4 +156,13 @@
     width: 100%;
     flex-direction: column;
   }
+
+.sec {
+  float:left;
+  position:relative;
+  }
+
+  .animate {
+    transform-origin: center center;
+  }
 }

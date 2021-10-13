@@ -2,6 +2,7 @@ import Navbar from '../public/components/Navbar'
 import Footer from '../public/components/Footer'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+import { Box,Flex } from "@chakra-ui/react"
 
 export default function Guide(){
   return(
