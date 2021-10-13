@@ -18,7 +18,7 @@ const shake = keyframes`
 `;
 
 export default function Home() {
-  const spinAnimation = `${spin} infinite 5s linear`;
+  const spinAnimation = `${spin} infinite 10s linear`;
   const shakeAnimation = `${shake} infinite 10s linear`;
 
   return (
@@ -55,9 +55,7 @@ export default function Home() {
             <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
               <center>  
                 <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                  <Box className="animate" pt="5vw" animation={spinAnimation} justify='center'>
-                    <Img className="animate" src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" width="20vw" height="20vw"/>
-                  </Box>
+                  <Img animation={spinAnimation} border="2px" borderColor="red.600" src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" width="20vw" height="20vw"/>
                 </Box>
               </center>
             </Flex>
