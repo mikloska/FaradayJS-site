@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../public/components/Navbar'
 import Footer from '../public/components/Footer'
-import { Box,Flex, Button, Heading, Stack, VStack, Text, keyframes, Img, Link } from "@chakra-ui/react"
+import { Box,Flex, Button, Heading, Stack, VStack, Text, keyframes, Img, Link, Center } from "@chakra-ui/react"
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -54,8 +54,10 @@ export default function Home() {
             </Flex>
             <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
               <center>  
-                <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                  <Img animation={spinAnimation} border="2px" borderColor="red.600" src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" width="20vw" height="20vw"/>
+                <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw" >
+                  <center>
+                    <Img animation={spinAnimation} border="2px" borderColor="red.600" src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" width="20vw" height="20vw" />
+                  </center>
                 </Box>
               </center>
             </Flex>

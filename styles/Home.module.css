@@ -162,4 +162,9 @@
   position:relative;
   }
 
+.spinner {
+    display:block;
+    margin:auto;
+}
+
 }
