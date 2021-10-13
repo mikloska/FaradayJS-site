@@ -26,6 +26,7 @@
 }
 
 .header {
+  z-index:10;
   background: rgba(40,41,42, 8);
   opacity:90%;
   width:100vw;
