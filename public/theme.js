@@ -4,7 +4,6 @@ const theme = extendTheme({
   fonts: {
     heading: "Heading Font Name",
     body: "Body Font Name",
-    text: "Body Font Name"
   },
 })
 
