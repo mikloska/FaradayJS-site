@@ -176,7 +176,7 @@ export default function Home() {
                         Narrow Down the Folders for Parsing 
                       </Heading>
                     <Text pb="5vw" fontSize="2xl"color="navy.800">
-                      If you would like to specify any folders that you would like to omit from being parsed, simmply enter the name of the folders. They will not be looked at for potential security concerns. 
+                      If you would like to specify any folders that you would like to omit from being parsed, simply enter the name of the folders. They will not be looked at for potential security concerns. 
                     </Text>
                   </center>
                 </div>
