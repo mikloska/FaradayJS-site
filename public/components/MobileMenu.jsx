@@ -5,7 +5,7 @@ import {HamburgerIcon} from '@chakra-ui/icons'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
-const MobileMenu = ({ handleGuideClick, handleTeamClick }) => (
+const MobileMenu = ({ handleGuideClick, handleTeamClick }) => {
     return(
         <div className={styles.mobileRight}>
             <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.gh}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
@@ -21,5 +21,5 @@ const MobileMenu = ({ handleGuideClick, handleTeamClick }) => (
             </Menu>
         </div>
     );
-)
+}
 export default MobileMenu;
