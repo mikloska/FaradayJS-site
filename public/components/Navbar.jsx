@@ -26,12 +26,12 @@ export default function Navbar(){
     e.preventDefault()
     router.push("/Team")
   }
-  const [ isLessThan494 ] = useMediaQuery(["(max-width: 494px)"]);
+  const [ isLessThan768 ] = useMediaQuery(["(max-width: 768px)"]);
 
   return(
     <div className={styles.header}>
       <a href="/"  className={styles.logo}><Image src='/faraday-logo-new-inverted.png' alt='logo' width={200} height={43}/></a>
-      {isLessThan494 ? <MobileMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/> : <FullMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/>}
+      {isLessThan768 ? <MobileMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/> : <FullMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/>}
     </div>
   )
 }
