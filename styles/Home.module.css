@@ -26,6 +26,7 @@
 }
 
 .header {
+  z-index:10;
   background: rgba(40,41,42, 8);
   opacity:90%;
   width:100vw;
@@ -52,8 +53,8 @@
 
 .footer {
   width: 100vw;
-  max-height: 100px;
-  min-height:100px;
+  max-height: 150px;
+  min-height:150px;
   border-top: 1px solid #3D3E3F;
   background-color: #3D3E3F;
   color:#ffffff;
