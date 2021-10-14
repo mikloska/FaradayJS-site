@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../public/components/Navbar'
 import Footer from '../public/components/Footer'
-import { Box,Flex, Button, Heading, Stack, VStack, Text, keyframes, Img, Link, Center } from "@chakra-ui/react"
+import { Box, Button, Heading, Stack, VStack, Text, keyframes, Img, Link, Center, Divider } from "@chakra-ui/react"
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -11,10 +11,12 @@ const spin = keyframes`
 `;
 
 const shake = keyframes`
-  from {transform: rotate(-5deg, 5deg);}
-  to {transform: rotate(5deg, -5deg)}
-  from {transform: rotate(5deg, -5deg;}
-  to {transform: rotate(-5deg, 5deg)}
+  from {transform: rotate(-5deg);}
+  to {transform: rotate(5deg);}
+  from {transform: rotate(5deg);}
+  to {transform: rotate(-5deg);}
+  from {transform: rotate(-5deg);}
+  to {transform: rotate(5deg);}
 `;
 
 export default function Home() {
@@ -33,107 +35,124 @@ export default function Home() {
         
 
         <main className={styles.main}>
-          {/* <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
-          </h1> */}
-          {/* Change flex direction to column when screen is resized */}
-          <Flex className={styles.sec} direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
-            <Flex  mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                <center>
-                  <Stack spacing={3}>
-                    <Heading as="h2" size="3xl">
-                      Welcome to FaradayJS
-                    </Heading>
-                    <Text pt="4vw" fontSize="xl" color="navy.800">
-                      Test your application to assure it follows the recommended ElectronJS application settings for optimal user security. 
-                    </Text>
-                  </Stack>
-                </center>
-              </Box>         
-            </Flex>
-            <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <center>  
-                <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw" >
+          <Stack className={styles.sec} direction={['column-reverse','column-reverse','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} justify='center' align='center'>
+              <div>
+                <Box mx={2}>
                   <center>
-                    <Img animation={spinAnimation} border="2px" borderColor="red.600" src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" width="20vw" height="20vw" />
+                    <Stack spacing={3}>
+                      <Heading as="h2" size="3xl">
+                        Welcome to FaradayJS
+                      </Heading>
+                      <Text pt="4vw" fontSize="2xl" color="navy.800">
+                        Test your ElectronJS application to assure it follows the recommended application settings for optimal user security. 
+                      </Text>
+                    </Stack>
                   </center>
-                </Box>
-              </center>
-            </Flex>
-          </Flex>
-          <Flex className={styles.sec} direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
-            <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-                <center>  
-                <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                  <Text fontSize="xl"color="navy.800">
-                    Take a look at 
-                  </Text>
-                  <Link href="/Guide">
-                    <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '23vw']}>
-                      Learn How to Use FaradayJS
+                  </Box>
+              </div>         
+            </Stack>
+            <Stack mb={2} direction={['column','column','row','row']} justify='center' align='center'>
+              <div mx={2}>
+                <center>
+                  <Img animation={spinAnimation} src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" maxWidth="150%"/>
+                </center>
+              </div>
+            </Stack>
+          </Stack>
+          
+          <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="40%" pb="20" justify='center' align='center'>
+                <div mx={2}>
+                  <center>
+                    <Text fontSize="2xl"color="navy.800" pb="20">
+                      Take a look at how you can use FaradayJS with a step by step guide through.
+                    </Text>
+                     <Link href="/Guide">
+                    <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
+                      User Guide
                     </Button>
                   </Link>
-                </Box>
-                </center>            
-            </Flex>
-            <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                <center>
-                  <Text fontSize="xl"color="navy.800">
-                    Simply download the installer for your computer system.
-                  </Text>
-                  <Link href="/Download">
-                    <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '23vw']}>
-                      Go to Download Options
-                    </Button>
-                  </Link>
-                </center>
-              </Box>
-            </Flex>
-          </Flex>
-          <Flex className={styles.sec} direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
-            <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                <center>
-                  <Heading pb="1vw" as="h2" size="xl">
-                      Identify Insecure Settings
-                    </Heading>
-                  <Text pb="4vw" fontSize="xl"color="navy.800">
-                    Pinpoint the names of the files that contain the settings which are set to a value that introduces potential security risks.
-                  </Text>
-                  <Heading pb="1vw" as="h2" size="xl">
-                      Narrow Down the Folders for Parsing 
-                    </Heading>
-                  <Text pb="4vw" fontSize="xl"color="navy.800">
-                    If you would like to specify any folders that you would like to omit from being parsed, simmply enter the name of the folders. They will not be looked at for potential security concerns. 
-                  </Text>
-                </center>
-              </Box>
-            </Flex>
-            <Flex mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <Box mx={2} border="1px" borderColor="gray.200" width="36vw" height="36vw">
-                <center>
-                  <Stack spacing={3}>
-                    <Heading pt="1vw" as="h2" size="2xl">
-                      Security is Important
-                    </Heading>
-                    <center>
-                    <VStack spacing={20}>
-                      <Box animation={shakeAnimation}>
-                        <Img src="/security-shield.png" alt="security" width="20vw" height="20vw"/>
-                      </Box>
-                    </VStack>
-                    <Text pt="1vw" fontSize="1.2vw" color="gray.800">
-                      "With great power comes great responsility." - Uncle Ben
+                  </center>
+                </div>
+              </Stack>
+              <Divider border="0px" borderColor="white"/>
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" pb="20" justify='center' align='center'>
+                <div>
+                  <center>
+                    <Text fontSize="2xl"color="navy.800" pb="10">
+                      Simply download the installer for your computer system and visit our guide to learn how to get started using FaradayJS. 
+                      {/* Click on the link below to navigate to the Github page with installer options. */}
+                    </Text>
+                    <Link href="https://github.com/oslabs-beta/FaradayJS/releases">
+                      <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
+                        Download Options
+                      </Button>
+                    </Link>
+                  </center>
+                </div>
+              </Stack>
+            </Stack>
+
+          <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
+                <div>
+                  <center>
+                    <Heading pb="5vw" as="h2" size="2xl">
+                        Identify Insecure Settings
+                      </Heading>
+                    <Text pb="5vw" fontSize="2xl"color="navy.800">
+                      Pinpoint the names of the files that contain the settings which are set to a value that introduces potential security risks.
                     </Text>
                   </center>
-                  </Stack>
-                </center>
-              </Box>
-            </Flex>
-          </Flex>
-    
+                </div>
+              </Stack>
+              <Divider border="0px" borderColor="white"/>
+              <Stack className={styles.sec} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
+                <div>
+                  <center>
+                   <Heading pb="5vw" as="h2" size="2xl">
+                        Narrow Down the Folders for Parsing 
+                      </Heading>
+                    <Text pb="5vw" fontSize="2xl"color="navy.800">
+                      If you would like to specify any folders that you would like to omit from being parsed, simmply enter the name of the folders. They will not be looked at for potential security concerns. 
+                    </Text>
+                  </center>
+                </div>
+              </Stack>
+            </Stack>
+
+          <Stack className={styles.sec} direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' pb="20">
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} justify='center' align='center'>
+                <div mx={2} border="1px" borderColor="gray.200">
+                  <center>
+                  <Heading pt="1vw" as="h2" size="2xl">
+                        Security is Important, Let us Help!
+                      </Heading>
+                  </center>
+                </div>
+              </Stack>
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} justify='center' align='center'>
+                <div mx={2} border="1px" borderColor="gray.200">
+                  <center>
+                    <Img animation={shakeAnimation} src="/security-shield.png" alt="FaradayJSLogo" maxWidth="100%"/>
+                  </center>
+                </div>
+              </Stack>
+              <Stack className={styles.sec} mb={2} direction={['column-reverse','column','row','row']} justify='center' align='center'>
+                <div>
+                  <Box mx={2}>
+                    <center>
+                      <Stack spacing={3}>
+                        <Text pt="1vw" fontSize="2vw" color="gray.800">
+                            "With great power comes great responsility." - Uncle Ben
+                          </Text>
+                      </Stack>
+                    </center>
+                    </Box>
+                </div>         
+              </Stack>
+            </Stack>
         </main>
         <Footer/>
 
