@@ -3,20 +3,20 @@
 </p>
 <p align="center">FaradayJS- electron security.</p>
 <p align="center">
-<a href="https://github.com/oslabs-beta/FaradayJS//blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/oslabs-beta/FaradayJS"></a>
-<a href="https://github.com/oslabs-beta/FaradayJS/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oslabs-beta/FaradayJS"></a>
-<a href="https://github.com/oslabs-beta/FaradayJS/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/oslabs-beta/FaradayJS"></a>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oslabs-beta/FaradayJS">
+<a href="https://github.com/mikloska/FaradayJS-site//blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/oslabs-beta/FaradayJS"></a>
+<a href="https://github.com/mikloska/FaradayJS-site/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oslabs-beta/FaradayJS"></a>
+<a href="https://github.com/mikloska/FaradayJS-site/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/oslabs-beta/FaradayJS"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mikloska/FaradayJS-site">
 
 </p>
 
 <h2>Table of Contents</h2>
 
-- [About](https://github.com/oslabs-beta/FaradayJS/#about-faradayjs)
-- [Download FaradayJS](https://github.com/oslabs-beta/FaradayJS/#download-faradayjs)
-- [Team](https://github.com/oslabs-beta/FaradayJS/#our-team) 
-- [License](https://github.com/oslabs-beta/FaradayJS/#License) 
-- [Languages & Tools](https://github.com/oslabs-beta/FaradayJS/#languages-and-tools)
+- [About](https://github.com/mikloska/FaradayJS-site/#about-faradayjs)
+- [Download FaradayJS](https://github.com/mikloska/FaradayJS-site/#download-faradayjs)
+- [Team](https://github.com/mikloska/FaradayJS-site/#our-team) 
+- [License](https://github.com/mikloska/FaradayJS-site/#License) 
+- [Languages & Tools](https://github.com/mikloska/FaradayJS-site/#languages-and-tools)
 
 <h2 href="#About">About FaradayJS</h2>
 
