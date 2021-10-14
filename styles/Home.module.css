@@ -11,7 +11,7 @@
 }
 
 .logo {
-  margin-top:30px;
+  margin-top:6px;
 }
 
 .main {
@@ -31,40 +31,48 @@
   opacity:90%;
   width:100vw;
   padding-top:20px;
-  padding-left:20px;
+  /* padding-left:20px; */
   padding-bottom:10px;
   position: sticky; top: 0;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 
 .gh {
+  margin-top:50px;
   margin-right:20px;
 }
+  
 .githubmobile {
-  margin-right:5px;
+  padding-top:16px;
+  margin-right:14px;
 }
 .dl {
   margin-right:20px;
   margin-top:20px;
 }
 .hamburger {
-  margin-right:45px;
-  margin-bottom:20px;
+  /* margin-right:45px; */
+  margin-bottom:18px;
 }
 .mobilehamburger {
-  margin-right:20px;
-  margin-bottom:20px;
+  /* position: fixed; */
+  /* margin-right:20px; */
+  margin-bottom:18px;
 }
 
-.right{
-  margin-bottom: 20px;
-  float:right;
-  /* margin-right: 20px; */
+.fullright{
+  /* margin-bottom: 20px; */
+  /* float:right; */
+  margin-top:8px;
+  margin-right: 30px;
 }
 .mobileRight {
-  position:fixed;
+  margin-top:8px;
+  /* position:fixed; */
   /* width:50px; */
-  margin-right: 0px;
+  margin-right: 30px;
   /* height: "40vw"; */
 }
 

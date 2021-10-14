@@ -11,14 +11,14 @@ const MobileMenu = ({ handleGuideClick, handleTeamClick }) => {
             <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.githubmobile}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
             {/* <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><Image src='/download.png' width={100} height={30}/></a> */}
             <Menu>
-                <MenuButton as={Button} className={styles.mobilehamburger}>
+              <MenuButton as={Button} className={styles.mobilehamburger}>
                 <HamburgerIcon />
-                </MenuButton>
-                <MenuList>
-                    <MenuItem onClick={handleGuideClick}>User Guide</MenuItem>
-                    <MenuItem onClick={handleTeamClick}>The Team</MenuItem>
-                    <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><MenuItem >Download</MenuItem></a>
-                </MenuList>
+              </MenuButton>
+              <MenuList>
+                  <MenuItem onClick={handleGuideClick}>User Guide</MenuItem>
+                  <MenuItem onClick={handleTeamClick}>The Team</MenuItem>
+                  <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><MenuItem >Download</MenuItem></a>
+              </MenuList>
             </Menu>
         </div>
     );
