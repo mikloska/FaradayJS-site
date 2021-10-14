@@ -1,8 +1,10 @@
 import { Menu, Button, MenuButton, MenuList, MenuItem, MenuItemOption, MenuGroup, MenuOptionGroup,
-  MenuIcon, MenuCommand,  MenuDivider, } from "@chakra-ui/react"
+  MenuIcon, MenuCommand,  MenuDivider, Stack, useMediaQuery, Box } from "@chakra-ui/react"
 import {HamburgerIcon} from '@chakra-ui/icons'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
+import FullMenu from './fullMenu'
+import MobileMenu from './mobileMenu'
 import { useRouter } from 'next/router'
 
 
@@ -12,7 +14,6 @@ import { useRouter } from 'next/router'
   //   marginRight: 10,
     // color: router.asPath === href ? 'red' : 'black',
   // }
-
 
 
 export default function Navbar(){
@@ -25,23 +26,12 @@ export default function Navbar(){
     e.preventDefault()
     router.push("/Team")
   }
+  const [ isLessThan494 ] = useMediaQuery(["(max-width: 494px)"]);
+
   return(
     <div className={styles.header}>
       <a href="/"  className={styles.logo}><Image src='/faraday-logo-new-inverted.png' alt='logo' width={200} height={43}/></a>
-      <div className={styles.right}>
-        <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.gh}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
-        <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><Image src='/download.png' width={100} height={29}/></a>
-        <Menu >
-          <MenuButton as={Button}  className={styles.hamburger}>
-          <HamburgerIcon />
-          </MenuButton>
-          <MenuList>
-            <MenuItem onClick={handleGuideClick}>User Guide</MenuItem>
-            <MenuItem onClick={handleTeamClick}>The Team</MenuItem>
-          </MenuList>
-        </Menu>
-      </div>
-
+      {isLessThan494 ? <MobileMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/> : <FullMenu handleGuideClick={handleGuideClick} handleTeamClick={handleTeamClick}/>}
     </div>
   )
 }
