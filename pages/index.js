@@ -62,17 +62,38 @@ export default function Home() {
           </Stack>
           {/* <img src='/Clipboard04.jpg' width={'100%'} height={'100%'}/> */}
 
-          <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+          <Stack className={styles.sec} mt="20" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="40%" pb="20" justify='center' align='center'>
                 <div>
                   <center>
-                    <Text fontSize="2xl"color="navy.800" pb="20">
+                    <Text fontSize="2xl"color="navy.800" pb="12">
                       Take a look at how you can use FaradayJS with a step by step guide through.
                     </Text>
                     <Link href="/Guide">
-                      <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
+                      <Button
+                        color="white"
+                        borderWidth="3px"
+                        borderStyle="solid"
+                        borderColor="gray"
+                        backgroundColor="#2F4F4F"
+                        fontWeight="bold"
+                        // px={3}
+                        // py={2}
+                        display="block"
+                        height="3vw"
+                        _hover={{
+                          backgroundColor: 'gray.100',
+                          color: 'black',
+                        }}
+                        _pressed={{
+                          backgroundColor: 'gray.700',
+                          color: '#2F4F4F',
+                        }}
+                        width={['30vw', '30vw', '30vw', '25vw']}
+                      >User Guide</Button>
+                      {/* <Button bg="#2F4F4F" variantcolor="#696969" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
                         User Guide
-                      </Button>
+                      </Button> */}
                     </Link>
                   </center>
                 </div>
@@ -81,14 +102,35 @@ export default function Home() {
               <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" pb="20" justify='center' align='center'>
                 <div>
                   <center>
-                    <Text fontSize="2xl"color="navy.800" pb="10">
+                    <Text fontSize="2xl"color="navy.800" pb="12">
                       Simply download the installer for your computer system and visit our guide to learn how to get started using FaradayJS. 
                       {/* Click on the link below to navigate to the Github page with installer options. */}
                     </Text>
                     <Link href="https://github.com/oslabs-beta/FaradayJS/releases">
-                      <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
+                      <Button
+                        color="white"
+                        borderWidth="3px"
+                        borderStyle="solid"
+                        borderColor="gray"
+                        backgroundColor="#2F4F4F"
+                        fontWeight="bold"
+                        // px={3}
+                        // py={2}
+                        display="block"
+                        height="3vw"
+                        _hover={{
+                          backgroundColor: 'gray.100',
+                          color: 'black',
+                        }}
+                        _pressed={{
+                          backgroundColor: 'gray.700',
+                          color: '#2F4F4F',
+                        }}
+                        width={['30vw', '30vw', '30vw', '25vw']}
+                      >Download Options</Button>
+                      {/* <Button bg="#2F4F4F" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
                         Download Options
-                      </Button>
+                      </Button> */}
                     </Link>
                   </center>
                 </div>
@@ -118,7 +160,7 @@ export default function Home() {
               </Stack>
             </Stack>
 
-          <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+          <Stack className={styles.sec} direction={['column-reverse','column-reverse','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="60%" pb="20" justify='center' align='center'>
                 <div>
                   <center>
@@ -164,7 +206,7 @@ export default function Home() {
                     <center>
                       <Stack spacing={3}>
                         <Text pt="1vw" fontSize="2vw" color="gray.800">
-                            "With great power comes great responsility." - Uncle Ben
+                            <q>With great power comes great responsility.</q> - Uncle Ben
                           </Text>
                       </Stack>
                     </center>
