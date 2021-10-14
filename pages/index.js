@@ -96,10 +96,10 @@ export default function Home() {
             </Stack>
 
             <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
-              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="60%" justify='center' align='center'>
                 <div>
                   <center>
-                    <Heading pb="5vw" as="h2" size="2xl">
+                    <Heading pb="2vw" as="h2" size="2xl">
                         Identify Insecure Settings
                       </Heading>
                     <Text pb="5vw" fontSize="2xl"color="navy.800">
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
               </Stack>
               <Divider border="0px" borderColor="white"/>
-              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="60%" pb="20" justify='center' align='center'>
                 <div>
                   <center>
                     <Img src='/failing-tests-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
@@ -119,7 +119,7 @@ export default function Home() {
             </Stack>
 
           <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
-            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="60%" pb="20" justify='center' align='center'>
                 <div>
                   <center>
                     <Img src='/passing-test-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
@@ -130,7 +130,7 @@ export default function Home() {
               <Stack className={styles.sec} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
                 <div>
                   <center>
-                   <Heading pb="5vw" as="h2" size="2xl">
+                   <Heading pb="2vw" as="h2" size="2xl">
                         Narrow Down the Folders for Parsing 
                       </Heading>
                     <Text pb="5vw" fontSize="2xl"color="navy.800">
