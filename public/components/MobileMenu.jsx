@@ -8,7 +8,7 @@ import styles from '../../styles/Home.module.css'
 const MobileMenu = ({ handleGuideClick, handleTeamClick }) => {
     return(
         <div className={styles.mobileRight}>
-            <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.ghmobile}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
+            <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.githubmobile}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
             {/* <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><Image src='/download.png' width={100} height={30}/></a> */}
             <Menu>
                 <MenuButton as={Button} className={styles.mobilehamburger}>
