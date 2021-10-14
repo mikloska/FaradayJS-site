@@ -20,39 +20,45 @@ export default function Guide(){
           User Guide
         </h1>
         {/* Change flex direction to column when screen is resized */}
-        <Stack direction={['column-reverse','column-reverse','row','row']} w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
-          <Flex  m={5} direction={['column','column','row','row']} justify='center' align='center'>
+        <Stack direction={['column-reverse','column-reverse','row','row']} w={'100%'} align='center' justify='center' p="4">
+          <Stack  m={5} direction={['column','column','row','row']}  justify='center' align='center'>
             <div>First enter the names of the files and folders you would like to ignore or leave it blank to run on entire project. Click Run Tests.</div>         
-          </Flex>
+          </Stack>
           <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
             <Img src='/Clipboard02.jpg' width={'100%'} height={'100%'}/>
           </Flex>
         </Stack>
-        <Flex direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
+
+        <Stack direction={['column','column','row','row']} w={'100%'} justify='center' p="4">
           <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
-          <Img src='/Clipboard03.jpg' width={'100%'} height={'100%'}/>
+            <Img src='/Clipboard03.jpg' width={'100%'} height={'100%'}/>
           </Flex>
-          <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
+          <Flex m={5} direction={['column','column','row','row']} width={'100%'} justify='center' align='center'>
             <div>Select the root folder of your Electron app.</div>
           </Flex>
-        </Flex>
+        </Stack>
 
-        <Stack direction={['column-reverse','column-reverse','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
-          <Flex  m={5} direction={['column','column','row','row']} justify='center' align='center'>
-            <div>View your test results, read about the importance of the settings and fix errors.</div>         
+        <Stack direction={['column-reverse','column-reverse','row','row']}  w={'100%'}  justify='center' p="4">
+        <Flex m={5} direction={['column','column','row','row']} width={'100%'} justify='center' align='center'>
+            <div>Change insecure settings.</div>
           </Flex>
           <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
             <Img src='/Clipboard04.jpg' width={'100%'} height={'100%'}/>
           </Flex>
+x
         </Stack>
-        <Flex direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
+
+
+        <Stack direction={['column','column','row','row']} w={'100%'} justify='center' p="4">
+
           <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
-          <Img src='/Clipboard05.jpg' width={'100%'} height={'100%'}/>
+            <Img src='/Clipboard05.jpg' width={'100%'} height={'100%'}/>
           </Flex>
-          <Flex m={5} direction={['column','column','row','row']} justify='center' align='center'>
+          <Flex m={5} direction={['column','column','row','row']} width={'100%'} justify='center' align='center'>
             <div>Enjoy your more secure Electron app.</div>
           </Flex>
-        </Flex>
+
+        </Stack>
 
   
       </main>

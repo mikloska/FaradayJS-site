@@ -19,7 +19,7 @@ export default function Team(){
         <h1 className={styles.title}>
           The Team
         </h1>
-        <Flex direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
+        <Flex direction={['column','column','row','row']} w={"100vw"} align='center' justify='center' p="4">
           <Flex direction={'column'} align='center' m={5}>
             <Image src='https://avatars.githubusercontent.com/u/72828456?v=4' alt="Kelsey" width="250" height="250"/>
             <h2 align="center">Kelsey Flynn</h2>
