@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../public/components/Navbar'
 import Footer from '../public/components/Footer'
-import { Box, Button, Heading, Stack, VStack, Text, keyframes, Img, Link, Center, Divider } from "@chakra-ui/react"
+import { Box, Button, Heading, Stack, VStack, Text, keyframes, Img, Link, Center, Divider, Flex } from "@chakra-ui/react"
 
 const spin = keyframes`
   from {transform: rotate(0deg);}
@@ -60,7 +60,8 @@ export default function Home() {
               </div>
             </Stack>
           </Stack>
-          
+          {/* <img src='/Clipboard04.jpg' width={'100%'} height={'100%'}/> */}
+
           <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="40%" pb="20" justify='center' align='center'>
                 <div mx={2}>
@@ -68,11 +69,11 @@ export default function Home() {
                     <Text fontSize="2xl"color="navy.800" pb="20">
                       Take a look at how you can use FaradayJS with a step by step guide through.
                     </Text>
-                     <Link href="/Guide">
-                    <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
-                      User Guide
-                    </Button>
-                  </Link>
+                    <Link href="/Guide">
+                      <Button bg="blue.900" variantcolor="#74BF9E" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
+                        User Guide
+                      </Button>
+                    </Link>
                   </center>
                 </div>
               </Stack>
@@ -94,8 +95,8 @@ export default function Home() {
               </Stack>
             </Stack>
 
-          <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
-            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
+            <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="50%" justify='center' align='center'>
                 <div>
                   <center>
                     <Heading pb="5vw" as="h2" size="2xl">
@@ -104,6 +105,24 @@ export default function Home() {
                     <Text pb="5vw" fontSize="2xl"color="navy.800">
                       Pinpoint the names of the files that contain the settings which are set to a value that introduces potential security risks.
                     </Text>
+                  </center>
+                </div>
+              </Stack>
+              <Divider border="0px" borderColor="white"/>
+              <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
+                <div bg="red">
+                  <center>
+                    <Img src='/failing-tests-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
+                  </center>
+                </div>
+              </Stack>
+            </Stack>
+
+          <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
+            <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
+                <div bg="red">
+                  <center>
+                    <Img src='/passing-test-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
                   </center>
                 </div>
               </Stack>
