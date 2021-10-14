@@ -71,26 +71,7 @@ export default function Home() {
                   </Text>
                 </center>
                 <Link href="/Guide">
-                  <Button
-                    color="white"
-                    borderWidth="3px"
-                    borderStyle="solid"
-                    borderColor="gray"
-                    backgroundColor="#2F4F4F"
-                    fontWeight="bold"
-                    // px={3}
-                    // py={2}
-                    display="block"
-                    height="3vw"
-                    _hover={{
-                      backgroundColor: 'gray.100',
-                      color: 'black',
-                    }}
-                    _pressed={{
-                      backgroundColor: 'gray.700',
-                      color: '#2F4F4F',
-                    }}
-                    height={'40px'}
+                  <Button                  height={'40px'}
                     width={'150px'}
                   >User Guide</Button>
                 {/* <Button bg="#2F4F4F" variantcolor="#696969" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
@@ -107,28 +88,7 @@ export default function Home() {
               </center>
 
                 <Link href="https://github.com/oslabs-beta/FaradayJS/releases" target="_blank"  rel="noreferrer" >
-                  <Button
-                    color="white"
-                    borderWidth="3px"
-                    borderStyle="solid"
-                    borderColor="gray"
-                    backgroundColor="#2F4F4F"
-                    fontWeight="bold"
-                    // px={3}
-                    // py={2}
-                    display="block"
-                    height="3vw"
-                    _hover={{
-                      backgroundColor: 'gray.100',
-                      color: 'black',
-                    }}
-                    _pressed={{
-                      backgroundColor: 'gray.700',
-                      color: '#2F4F4F',
-                    }}
-                    height={'40px'}
-                    width={'200px'}
-                  >Download Options</Button>
+                  <Button>Download Options</Button>
                 {/* <Button bg="#2F4F4F" variantcolor="#696969" color="white" variant="solid" width={['30vw', '30vw', '30vw', '25vw']}>
                   User Guide
                 </Button> */}
