@@ -37,10 +37,9 @@ export default function Navbar(){
           <HamburgerIcon />
           </MenuButton>
           <MenuList>
-            <MenuItem onClick={handleGuideClick}>How to Use FaradayJS</MenuItem>
+            <MenuItem onClick={handleGuideClick}>User Guide</MenuItem>
             <MenuItem onClick={handleTeamClick}>The Team</MenuItem>
           </MenuList>
-          <MenuDivider/>
         </Menu>
       </div>
 

@@ -1,5 +1,5 @@
 <p align="center">
-<img src='./public/faraday-logo.png" width="250" />
+<img src='public/faraday-logo.png" width="250" />
 </p>
 <p align="center">FaradayJS- electron security.</p>
 <p align="center">
@@ -9,7 +9,7 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oslabs-beta/FaradayJS">
 
 </p>
-<img src='./public/readme1.jpg"/>
+<img src='readme1.jpg"/>
 <h2>Table of Contents</h2>
 
 [About](https://github.com/oslabs-beta/FaradayJS/#About)[Features](https://github.com/oslabs-beta/FaradayJS/#Features) [Download FaradayJS](https://github.com/oslabs-beta/FaradayJS/#get)[How to Use](https://github.com/oslabs-beta/FaradayJS/#Example)[Team](https://github.com/oslabs-beta/FaradayJS/#Team) [License](https://github.com/oslabs-beta/FaradayJS/#License) [Languages & Tools](https://github.com/oslabs-beta/FaradayJS/#Languages)
@@ -69,10 +69,12 @@ This open source product is accelerated by [OS Labs](https://opensourcelabs.io/)
 
 <h2 align="left" href="#Languages">Languages and Tools:</h2>
 <p align="center">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/> </a> 
-<a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="80" height="80"/> </a> 
- <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80"/> </a>
- <a href="https://redux.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="80" height="80"/> </a> 
- <a href="https://tailwindcss.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="80" height="80"/> </a>
-<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80"/> </a> 
- <a href="https://www.electronjs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="80" height="80" margin="padding"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="80" height="80"/> </a> <a href="https://jestjs.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="80" height="80"/> </a> </p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80" style="margin:20px;"/> </a> 
+ <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80" style="margin:20px;"/> </a>
+<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80" style="margin:20px;"/> </a> 
+<a href="https://chakra-ui.com/" target="_blank"> <img src="https://bestofjs.org/logos/chakra-ui.svg" alt="chakraui" width="80" height="80" style="margin:20px;"/> </a>
+<a href="https://nextjs.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="chakraui" width="80" height="80" style="margin:20px;"/> </a>
+
+
+</p>
+

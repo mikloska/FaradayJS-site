@@ -17,7 +17,7 @@ export default function Guide(){
     </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          How to Use FaradayJS
+          User Guide
         </h1>
         {/* Change flex direction to column when screen is resized */}
         <Stack direction={['column-reverse','column-reverse','row','row']} w={['90vw','90vw','90vw','70vw']} justify='center' p="4">
