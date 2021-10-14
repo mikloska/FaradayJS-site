@@ -102,6 +102,25 @@ export default function Home() {
               <Stack direction='column' align='center'>
                 <center>
                   <Heading pb="2vw" as="h2" size="2xl">
+                    Narrow Down the Folders for Parsing 
+                  </Heading>
+                  <Text pb="5vw" fontSize="2xl"color="navy.800">
+                    Simply enter the name of the folders you would like to be omitted from parsing. 
+                  </Text> 
+                </center>
+              </Stack>        
+            </Stack>
+            <Stack direction='column' align='center'>
+              <Img src='/passing-test-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
+            </Stack>     
+
+          </Stack>
+
+          <Stack mb={20} direction={['column-reverse','column-reverse','row-reverse','row-reverse']} w={'100%'} align='center' justify='center' p="4">
+            <Stack  m={5} direction={['column','column','row','row']}  justify='center' align='center'>
+              <Stack direction='column' align='center'>
+                <center>
+                  <Heading pb="2vw" as="h2" size="2xl">
                     Identify Insecure Settings
                   </Heading>
                   <Text pb="5vw" fontSize="2xl"color="navy.800">
@@ -116,24 +135,6 @@ export default function Home() {
 
           </Stack>
 
-          <Stack mb={20} direction={['column-reverse','column-reverse','row','row']} w={'100%'} align='center' justify='center' p="4">
-            <Stack  m={5} direction={['column','column','row','row']}  justify='center' align='center'>
-              <Stack direction='column' align='center'>
-                <center>
-                  <Heading pb="2vw" as="h2" size="2xl">
-                    Narrow Down the Folders for Parsing 
-                  </Heading>
-                  <Text pb="5vw" fontSize="2xl"color="navy.800">
-                    Simply enter the name of the folders you would like to be omitted from parsing. 
-                  </Text> 
-                </center>
-              </Stack>        
-            </Stack>
-            <Stack direction='column' align='center'>
-              <Img src='/passing-test-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
-            </Stack>     
-
-          </Stack>
 
           <Stack className={styles.sec} direction={['column','column','row','row']} w={'100%'} align='center'>
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']}>
