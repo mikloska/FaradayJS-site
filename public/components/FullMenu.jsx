@@ -12,7 +12,7 @@ const FullMenu = ({ handleGuideClick, handleTeamClick }) => {
             <a href='https://github.com/oslabs-beta/FaradayJS' target="_blank"  rel="noreferrer" className={styles.gh}><Image src='/GitHub-Mark-64px-inverted.png' width={30} height={30}/></a>
             <a href='https://github.com/oslabs-beta/FaradayJS/releases' target="_blank"  rel="noreferrer" className={styles.dl}><Image src='/download.png' width={100} height={30}/></a>
             <Menu>
-                <MenuButton as={Button} className={styles.hamburger} mr={45}>
+                <MenuButton as={Button} className={styles.hamburger}>
                 <HamburgerIcon />
                 </MenuButton>
                 <MenuList>
