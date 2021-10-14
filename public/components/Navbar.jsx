@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Menu, Button, MenuButton, MenuList, MenuItem, MenuItemOption, MenuGroup, MenuOptionGroup,
   MenuIcon, MenuCommand,  MenuDivider, } from "@chakra-ui/react"
 import {HamburgerIcon} from '@chakra-ui/icons'
