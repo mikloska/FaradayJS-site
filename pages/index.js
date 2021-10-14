@@ -53,7 +53,7 @@ export default function Home() {
               </div>         
             </Stack>
             <Stack mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-              <div mx={2}>
+              <div>
                 <center>
                   <Img animation={spinAnimation} src="/faraday-logo-cropped.PNG" alt="FaradayJSLogo" maxWidth="150%"/>
                 </center>
@@ -64,7 +64,7 @@ export default function Home() {
 
           <Stack className={styles.sec} mt="10" direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} maxWidth="40%" pb="20" justify='center' align='center'>
-                <div mx={2}>
+                <div>
                   <center>
                     <Text fontSize="2xl"color="navy.800" pb="20">
                       Take a look at how you can use FaradayJS with a step by step guide through.
@@ -110,7 +110,7 @@ export default function Home() {
               </Stack>
               <Divider border="0px" borderColor="white"/>
               <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
-                <div bg="red">
+                <div>
                   <center>
                     <Img src='/failing-tests-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
                   </center>
@@ -120,7 +120,7 @@ export default function Home() {
 
           <Stack className={styles.sec} direction={['column','column','row','row']} pb="20" maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' align='center' p="4">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} minWidth="50%" pb="20" justify='center' align='center'>
-                <div bg="red">
+                <div>
                   <center>
                     <Img src='/passing-test-app.png'  alt="FaradayJSFailedTests" width={'100%'} height={'100%'}/>
                   </center>
@@ -143,7 +143,7 @@ export default function Home() {
 
           <Stack className={styles.sec} direction={['column','column','row','row']} maxW='1000px' w={['90vw','90vw','90vw','70vw']} justify='center' pb="20">
             <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-                <div mx={2} border="1px" borderColor="gray.200">
+                <div>
                   <center>
                   <Heading pt="1vw" as="h2" size="2xl">
                         Security is Important, Let us Help!

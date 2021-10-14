@@ -8,12 +8,12 @@ import FullMenu from './fullMenu'
 import MobileMenu from './mobileMenu'
 
 export default function Navbar(){
-  const [ isLargerThan494 ] = useMediaQuery(["(min-width: 494px)"]);
+  const [ isLessThan494 ] = useMediaQuery(["(max-width: 494px)"]);
 
   return(
     <div className={styles.header}>
       <a href="/"  className={styles.logo}><Image src='/faraday-logo-new-inverted.png' alt='logo' width={200} height={43}/></a>
-      {isLargerThan494 ? <FullMenu /> : <MobileMenu />}
+      {isLessThan494 ? <MobileMenu /> : <FullMenu />}
     </div>
   )
 }
