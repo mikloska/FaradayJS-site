@@ -3,7 +3,7 @@ import { Menu, Button, MenuButton, MenuList, MenuItem, MenuItemOption, MenuGroup
 import {HamburgerIcon} from '@chakra-ui/icons'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
-import FullMenu from './fullMenu'
+import FullMenu from './FullMenu'
 import MobileMenu from './mobileMenu'
 import { useRouter } from 'next/router'
 
