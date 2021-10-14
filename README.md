@@ -47,10 +47,10 @@ The team at FaradayJS
       <td valign="top"><h2 align="center">Miklós Kertész</h2></td>
   </tr>
    <tr>
-      <td align="center"><a href="https://github.com/keflynn" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png" alt="kelseyGitHub" width="50" height="50"/></a></td>
-      <td align="center"><a href="https://github.com/RRosio" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png" alt="rosioGitHub" width="50" height="50"/></a></td>
-      <td align="center"><a href="https://github.com/Murphypie" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png" alt="heehoGitHub" width="50" height="50"/></a></td>
-      <td align="center"><a href="https://github.com/mikloska" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png" alt="miklosGitHub" width="50" height="50"/></a></td>
+      <td align="center"><a href="https://github.com/keflynn" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png' alt="kelseyGitHub" width="50" height="50"/></a></td>
+      <td align="center"><a href="https://github.com/RRosio" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png' alt="rosioGitHub" width="50" height="50"/></a></td>
+      <td align="center"><a href="https://github.com/Murphypie" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png' alt="heehoGitHub" width="50" height="50"/></a></td>
+      <td align="center"><a href="https://github.com/mikloska" target="_blank" align="center"> <img src='./public/GitHub-Mark-64px.png' alt="miklosGitHub" width="50" height="50"/></a></td>
   </tr>
 </table>
 
