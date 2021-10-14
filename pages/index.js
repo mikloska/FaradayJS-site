@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
               </Stack>
               <Stack className={styles.sec} mb={2} direction={['column','column','row','row']} justify='center' align='center'>
-                <div mx={2} border="1px" borderColor="gray.200">
+                <div>
                   <center>
                     <Img animation={shakeAnimation} src="/security-shield.png" alt="FaradayJSLogo" maxWidth="100%"/>
                   </center>
