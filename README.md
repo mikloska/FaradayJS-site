@@ -1,5 +1,5 @@
 <p align="center">
-<img src='public/faraday-logo.png" width="250" />
+<img src='public/faraday-logo.png' width="250" />
 </p>
 <p align="center">FaradayJS- electron security.</p>
 <p align="center">
@@ -9,28 +9,24 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oslabs-beta/FaradayJS">
 
 </p>
-<img src='readme1.jpg"/>
+
 <h2>Table of Contents</h2>
 
-[About](https://github.com/oslabs-beta/FaradayJS/#About)[Features](https://github.com/oslabs-beta/FaradayJS/#Features) [Download FaradayJS](https://github.com/oslabs-beta/FaradayJS/#get)[How to Use](https://github.com/oslabs-beta/FaradayJS/#Example)[Team](https://github.com/oslabs-beta/FaradayJS/#Team) [License](https://github.com/oslabs-beta/FaradayJS/#License) [Languages & Tools](https://github.com/oslabs-beta/FaradayJS/#Languages)
+[About](https://github.com/oslabs-beta/FaradayJS/#About)[Download FaradayJS](https://github.com/oslabs-beta/FaradayJS/#get)[Team](https://github.com/oslabs-beta/FaradayJS/#Team) [License](https://github.com/oslabs-beta/FaradayJS/#License) [Languages & Tools](https://github.com/oslabs-beta/FaradayJS/#Languages)
 
 <h2 href="#About">About FaradayJS</h2>
 
-Similar to how the Faraday cage blocks electromagnetic fileds, FaradayJS protects electron developers from settings which would make their applications vulnerable.
+Similar to how the Faraday cage blocks electromagnetic fileds, FaradayJS protects electron developers from settings which would make their applications vulnerable. This is the repo for the  FradayJS splash page. It was built on Next.js using Chakra-UI. 
 
-<h2 href="#Features">Features</h2>
 
 <h2 href="#get">Download FaradayJS</h2>
 
-FaradayJS can be downloaded for Windows, Mac and Linux systems at our website: <a href='http://www.faraday.js.com'>faradayjs.com</a>
+FaradayJS can be downloaded for Windows and Mac at our repo's <a href='https://github.com/oslabs-beta/FaradayJS/releases' >releases page</a>
 
 
-<h2 href="#Example">How to Use</h2>
+
 <p align="center">
-  <img src='./public/Clipboard02.jpg"/>
-  <img src='./public/Clipboard03.jpg"/>
-  <img src='./public/Clipboard04.jpg"/>
-  <img src='./public/Clipboard05.jpg"/>
+  <img src='./public/Clipboard01.jpg'/>
 </p>
 
 <h2 href="#Team">Our Team</h2>
@@ -71,9 +67,9 @@ This open source product is accelerated by [OS Labs](https://opensourcelabs.io/)
 <p align="center">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80" style="margin:20px;"/> </a> 
  <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80" style="margin:20px;"/> </a>
-<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80" style="margin:20px;"/> </a> 
 <a href="https://chakra-ui.com/" target="_blank"> <img src="https://bestofjs.org/logos/chakra-ui.svg" alt="chakraui" width="80" height="80" style="margin:20px;"/> </a>
 <a href="https://nextjs.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="chakraui" width="80" height="80" style="margin:20px;"/> </a>
+<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80" style="margin:20px;"/> </a> 
 
 
 </p>
